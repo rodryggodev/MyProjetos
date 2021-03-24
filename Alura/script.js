@@ -10,16 +10,22 @@ if (escolha == 1){
     let resultado = primeiroValor + segundoValor;
     document.write(`O resultado é: ${resultado}`);
 }
+
 else if(escolha == 2) {
       let resultado = primeiroValor - segundoValor;
       document.write(`O resultado é: ${resultado}`);
 }
+
 else if (escolha == 3) {
       let resultado = primeiroValor / segundoValor;
       document.write(`O resultado é: ${resultado}`);
 }
-else {
+
+else if {
       let resultado = primeiroValor * segundoValor;
       document.write(`O resultado é: ${resultado}`);
+}
+else {
+    document.write('Valor invalido');
 }
 
