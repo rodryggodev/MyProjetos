@@ -3,6 +3,14 @@ function adicionarFilmeFavorito(){
     let filmeFvorito = document.querySelector('#filme')
     let filme = filmeFvorito.value;
     document.write("<img src=" + filme + ">");
+
+    // aceita só urls com o final .jpg / .jpeg
+    if (Filme.endsWith('.jpg')){
+	console.log('ok');
+    }
+    else{
+	console.log('formato invalido');
+    }
 }
 
 
@@ -12,3 +20,4 @@ function adicionarFilmeFavorito(){
     filmeFvorito.value;
     document.write(filmeFavorito);
 }
+*/
